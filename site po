@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açougue Garrotão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .banner {
+            width: 100%;
+            height: 250px;
+            background-color: #ff7b00;
+            color: white;
+            text-align: center;
+            line-height: 250px;
+            font-size: 24px;
+        }
+
+        .carne-lista {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .carne-item {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .carne-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .carne-item p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .promocao {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .promocao .item {
+            width: 48%;
+            background-color: #ffd700;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .promocao img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        Promoção Imperdível - File Mignon por R$49,99/kg!
+    </div>
+
+    <h1>Bem-vindo ao Açougue Garrotão</h1>
+
+    <!-- Promoções -->
+    <div class="promocao">
+        <div class="item">
+            <img src="link-para-imagem-file-mignon.jpg" alt="File Mignon">
+            <p>File Mignon</p>
+            <p>R$49,99/kg</p>
+            <p>Promoção Imperdível!</p>
+        </div>
+        <div class="item">
+            <img src="link-para-imagem-picanha.jpg" alt="Picanha">
+            <p>Picanha</p>
+            <p>R$49,99/kg</p>
+            <p>Promoção Imperdível!</p>
+        </div>
+    </div>
+
+    <h2>Carnes Bovinas</h2>
+    <div class="carne-lista">
+        <div class="carne-item">
+            <img src="link-para-imagem-mignon.jpg" alt="Mignon">
+            <p>Mignon</p>
+        </div>
+        <div class="carne-item">
+            <img src="link-para-imagem-picanha.jpg" alt="Picanha">
+            <p>Picanha</p>
+        </div>
+        <div class="carne-item">
+            <img src="link-para-imagem-contra-file.jpg" alt="Contra Filé">
+            <p>Contra Filé</p>
+        </div>
+        <!-- Continue adicionando mais carnes aqui -->
+    </div>
+
+    <h2>Cortes Nobres Suínos</h2>
+    <div class="carne-lista">
+        <div class="carne-item">
+            <img src="link-para-imagem-copa-lombo.jpg" alt="Copa Lombo">
+            <p>Copa Lombo</p>
+        </div>
+        <div class="carne-item">
+            <img src="link-para-imagem-picanha-suina.jpg" alt="Picanha Suína">
+            <p>Picanha Suína</p>
+        </div>
+        <div class="carne-item">
+            <img src="link-para-imagem-file-mignon-suino.jpg" alt="File Mignon Suíno">
+            <p>File Mignon Suíno</p>
+        </div>
+        <!-- Continue com os cortes suínos -->
+    </div>
+
+    <h2>Cortes de Frango</h2>
+    <div class="carne-lista">
+        <div class="carne-item">
+            <img src="link-para-imagem-peito-frango.jpg" alt="Peito de Frango">
+            <p>Peito de Frango</p>
+        </div>
+        <div class="carne-item">
+            <img src="link-para-imagem-coxa-frango.jpg" alt="Coxa de Frango">
+            <p>Coxa de Frango</p>
+        </div>
+        <div class="carne-item">
+            <img src="link-para-imagem-asa-frango.jpg" alt="Asa de Frango">
+            <p>Asa de Frango</p>
+        </div>
+        <!-- Continue com os cortes de frango -->
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Açougue Garrotão | Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
