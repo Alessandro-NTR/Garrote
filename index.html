@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Açougue Garrotão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Garrotão - Açougue Online</h1>
+        <p>Escolha seus cortes favoritos e envie seu pedido!</p>
+    </header>
+    <main>
+        <section id="carnes-bovinas">
+            <h2>Carnes Bovinas</h2>
+            <div class="produto">
+                <img src="img/picanha.jpg" alt="Picanha">
+                <h3>Picanha</h3>
+                <label for="picanha-preparo">Tipo de corte:</label>
+                <select id="picanha-preparo">
+                    <option value="bife">Bife</option>
+                    <option value="churrasco">Churrasco</option>
+                    <option value="inteiro">Inteiro</option>
+                </select>
+                <label>Quantidade (kg):</label>
+                <input type="number" min="0.1" step="0.1">
+            </div>
+        </section>
+        <section id="dados-cliente">
+            <h2>Seus dados</h2>
+            <form id="pedido-form">
+                <input type="text" placeholder="Nome" required><br>
+                <input type="tel" placeholder="Telefone" required><br>
+                <input type="text" placeholder="Endereço" required><br>
+                <input type="text" placeholder="Número da casa" required><br>
+                <input type="text" placeholder="Ponto de referência" required><br>
+                <select required>
+                    <option value="">Forma de pagamento</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="cartao">Cartão</option>
+                    <option value="pix">PIX</option>
+                </select><br><br>
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
